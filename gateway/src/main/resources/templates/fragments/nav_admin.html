@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+</head>
+<body>
+  
+    <div th:fragment="copy">
+      <nav>
+		<ul class="nav nav-pills pull-right">
+			<li role="presentation"><a th:href="@{/admin}">Usuarios</a></li>
+			<li role="presentation"><a th:href="@{/admin/productos}">Productos</a></li>
+			<li role="presentation"><a href="#">Chat</a></li>
+			<li role="presentation"><a th:href="@{/logout}">Logout</a></li>
+		</ul>
+	  </nav>
+    </div>
+
+ </body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<body>
+
+		<div th:fragment="copy">
+			
+			<fieldset>
+				<legend>Esribir mensaje </legend>
+				<textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+				<br />
+				<input type="submit" value="enviar" />
+				<input type="hidden" name="to" value="751" />
+				<input type="hidden"  name="from" value="801"/>
+			</fieldset>
+			
+		</div>
+		
+</body>
+</html>
