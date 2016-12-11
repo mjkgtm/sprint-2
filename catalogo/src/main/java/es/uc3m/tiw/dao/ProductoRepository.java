@@ -1,7 +1,8 @@
-package es.uc3.tiw.dao;
+package es.uc3m.tiw.dao;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import es.uc3.tiw.dominio.Producto;
+
+import es.uc3m.tiw.dominio.Producto;
 
 public interface ProductoRepository extends JpaRepository<Producto, Long>{
 

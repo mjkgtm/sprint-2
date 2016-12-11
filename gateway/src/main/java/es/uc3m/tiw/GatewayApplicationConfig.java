@@ -1,4 +1,4 @@
-package es.uc3.tiw;
+package es.uc3m.tiw;
 
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.Bean;

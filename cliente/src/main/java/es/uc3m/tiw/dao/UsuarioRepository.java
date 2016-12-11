@@ -1,7 +1,8 @@
-package es.uc3.tiw.dao;
+package es.uc3m.tiw.dao;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import es.uc3.tiw.dominio.Usuario;
+
+import es.uc3m.tiw.dominio.Usuario;
 
 public interface UsuarioRepository extends JpaRepository<Usuario, Long>{
 

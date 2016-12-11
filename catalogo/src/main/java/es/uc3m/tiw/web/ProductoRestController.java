@@ -1,4 +1,4 @@
-package es.uc3.tiw.web;
+package es.uc3m.tiw.web;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -7,8 +7,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-import es.uc3.tiw.dao.ProductoRepository;
-import es.uc3.tiw.dominio.Producto;
+
+import es.uc3m.tiw.dao.ProductoRepository;
+import es.uc3m.tiw.dominio.Producto;
 
 @RestController
 @RequestMapping("/rest")
