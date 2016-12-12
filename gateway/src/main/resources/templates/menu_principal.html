@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<header th:include="fragments/header :: copy"></header>
+	<title>Práctica 2 TIW - Login</title>
+</head>
+
+<body>
+
+	<div class="container">
+		<div class="header clearfix">
+		<div th:include="fragments/nav_usuario :: copy"></div> 
+		<h3 class="text-muted">Wallapop</h3>
+		</div>
+
+		<div class="jumbotron">
+			<h1>Menú Principal</h1>
+			<div th:include="fragments/mensajes :: copy"></div>
+
+			<form th:action="@{/buscar}" method="post">
+				<div class="input-group">
+					<span class="input-group-addon" id="basic-addon1"><span
+						class="glyphicon glyphicon-search" aria-hidden="true"></span></span> <input
+						type="text" class="form-control" placeholder="Buscar..." name="criterio"
+						aria-describedby="basic-addon1" />
+				</div>
+			</form>
+			<!--<div class="container page-header">
+				<jsp:include page="inc/listar_productos.jsp" />
+			</div>-->
+			
+		</div>
+		<div th:include="fragments/footer :: copy"></div>
+	</div> <!-- /container -->
+
+	<div th:include="fragments/javascript :: copy"></div>
+
+</body>
+</html>
